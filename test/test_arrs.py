@@ -21,3 +21,9 @@ def test_slice_2():
 
 def test_slice_3():
     assert arrs.my_slice([], 1) == []
+
+def test_slice_4():
+    assert arrs.my_slice([1,2,3], -1) == [3]
+
+def test_slice_5():
+    assert arrs.my_slice([1,2,3], -5) == [1,2,3]
